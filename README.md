@@ -17,10 +17,10 @@ After reading the data
     
     ![image](https://user-images.githubusercontent.com/54750418/174401870-722df03f-03ad-4a23-8097-520a1fc1c535.png)
     
-    - Using the sparse representation of the normalized coordinates in this [paper](https://github.com/Abdelrhman-Amr-98/Head-Pose-Estimation/blob/main/Sources%20and%20References/%5B1%5D%20Sparse_Bayesian_Regression_for_Head_Pose_Estimation.pdf) outline **3.1**
-    - Given that we have the nose landmark [**31**] performing as the CG feature of the face
-        - We have used it instead of the approximation performed in the paper to estimate its position
-        - Then we applied the normalization method using the nose as our CG.
+- Using the sparse representation of the normalized coordinates in this [paper](https://github.com/DinaZakaria/ML1_AFLW2000_HeadPoseEstimation/blob/master/Papers/Sparse_Bayesian_Regression_for_Head_Pose_Estimatio.pdf) outline **3.1**
+- Given that we have the nose landmark [**31**] performing as the CG feature of the face
+    - We have used it instead of the approximation performed in the [paper](https://github.com/DinaZakaria/ML1_AFLW2000_HeadPoseEstimation/blob/master/Papers/Sparse_Bayesian_Regression_for_Head_Pose_Estimatio.pdf) to estimate its position
+    - Then we applied the normalization method using the nose as our CG.
 2. Feature Selection
 3. Using the Interquartile Rule to Find Outliers in both (**labels** and **landmarks**)
     - Calculate the interquartile range for the data. **Multiply the interquartile range (IQR) by 1.5**
